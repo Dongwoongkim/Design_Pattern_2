@@ -1,9 +1,9 @@
-package hello.proxy.decorator.code;
+package hello.proxy.pureproxy.decorator.code;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class TimeDecorator implements Component{
+public class TimeDecorator implements Component {
 
     private Component component;
 
